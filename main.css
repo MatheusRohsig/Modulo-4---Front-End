@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{ 
+    background-color:black;
+    padding: 16px 0;
+    color: #f5f6fa 
+}
+
+header li a{
+    color:#f5f6fa;
+    text-decoration: none
+}
+
+header .container{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between
+}
+
+header .container h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+header li{
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    margin-left: 16px;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto 
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.articles article img{
+    width:100%;
+
+}
+
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#economy .articles article a{
+    background-color: rgba(255, 255, 20, 1);
+    color: #000;
+}
+
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports{
+    background-color: rgba(25, 25, 25, 0.2) 
+}
+
+#sports .articles article a{
+    background-color: rgba(0, 0, 0, 1);
+    color: #ffff
+}
+
+#economy{
+    background-color: rgba(255,255, 0, 0.2)
+}
+
+#agribusiness{
+    background-color: rgba(0, 100, 0, 0.5);
+}
+
+#agribusiness .articles article a{
+    background-color: rgba(100,100,100,0.7);
+    color: rgba(0, 0, 0, 1)
+}
+
+#infrastructure{
+    background-color: rgba(0, 217, 255, 0.233);
+}
+
+#infrastructure .articles article a{
+    background-color: rgba(0, 15, 100, 0.5);
+} 
